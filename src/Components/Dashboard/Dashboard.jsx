@@ -1,30 +1,15 @@
-<<<<<<< HEAD
-
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Dashboard.css';
-=======
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Dashboard.css';
-import { logout as authLogout } from '../../utils/auth';
->>>>>>> 193db1ba7bc25f60c2015e1d43e4612e92ec3074
 
 const Dashboard = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-<<<<<<< HEAD
     try { localStorage.removeItem('myapp_auth_v1'); } catch (e) {}
     navigate('/');
   };
-=======
-    authLogout();
-    navigate('/');
-  };
-
->>>>>>> 193db1ba7bc25f60c2015e1d43e4612e92ec3074
   return (
     <div className="dashboard-page">
       <nav className="navbar">

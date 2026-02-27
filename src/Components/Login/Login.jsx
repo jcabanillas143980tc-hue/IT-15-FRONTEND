@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 193db1ba7bc25f60c2015e1d43e4612e92ec3074
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
