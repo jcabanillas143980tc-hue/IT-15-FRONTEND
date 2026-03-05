@@ -66,3 +66,105 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* ── Light Mode Overrides ── */
+/* Add this to your index.css or App.css */
+
+body.light-mode {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+body.light-mode .sidebar {
+  background: #ffffff !important;
+  border-right: 1px solid #e2e8f0 !important;
+}
+
+body.light-mode .sidebar-brand {
+  background: linear-gradient(135deg, #0f172a 40%, #0891b2 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+body.light-mode .nav-item {
+  color: #64748b !important;
+}
+
+body.light-mode .nav-item:hover {
+  background: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+body.light-mode .nav-item.active {
+  background: rgba(8,145,178,0.08) !important;
+  color: #0891b2 !important;
+}
+
+body.light-mode .main-viewport {
+  background: #f1f5f9 !important;
+}
+
+body.light-mode .top-header {
+  background: rgba(241,245,249,0.9) !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+body.light-mode .footer-bar {
+  border-top: 1px solid #e2e8f0 !important;
+  color: #94a3b8 !important;
+}
+
+body.light-mode .sh-stat-card,
+body.light-mode .sh-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+body.light-mode .sh-page-title {
+  background: linear-gradient(135deg, #0f172a 50%, #0891b2 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+body.light-mode .sh-stat-value,
+body.light-mode .sh-name,
+body.light-mode .sh-card-title {
+  color: #0f172a !important;
+}
+
+body.light-mode .sh-stat-label,
+body.light-mode .sh-muted,
+body.light-mode .sh-date {
+  color: #94a3b8 !important;
+}
+
+body.light-mode .sh-table-row:hover {
+  background: #f8fafc !important;
+}
+
+body.light-mode .settings-container h1,
+body.light-mode .setting-title {
+  color: #0f172a !important;
+}
+
+body.light-mode .settings-list {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+body.light-mode .setting-item {
+  border-bottom: 1px solid #f1f5f9 !important;
+}
+
+body.light-mode .profile-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+body.light-mode .info-group input {
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #0f172a !important;
+}
