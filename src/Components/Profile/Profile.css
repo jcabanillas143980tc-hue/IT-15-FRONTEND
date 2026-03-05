@@ -1,0 +1,94 @@
+.profile-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+  
+  .page-header p {
+    color: #94a3b8;
+    margin-bottom: 30px;
+  }
+  
+  .profile-card {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 40px;
+  }
+  
+  .avatar-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #1f2228;
+  }
+  
+  .avatar-circle {
+    width: 80px;
+    height: 80px;
+    background: #22d3ee;
+    color: #0a0b0d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .btn-change-photo {
+    background: transparent;
+    border: 1px solid #334155;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .info-group label {
+    color: #94a3b8;
+    font-size: 0.9rem;
+  }
+  
+  .info-group input {
+    background: #0a0b0d;
+    border: 1px solid #334155;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .info-group input:focus {
+    border-color: #22d3ee;
+  }
+  
+  .btn-save {
+    background: #0891b2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }

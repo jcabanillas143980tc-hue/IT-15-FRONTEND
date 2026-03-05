@@ -1,0 +1,70 @@
+.settings-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .settings-section {
+    margin-top: 40px;
+  }
+  
+  .settings-section h3 {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .settings-list {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #1f2228;
+  }
+  
+  .setting-item:last-child {
+    border-bottom: none;
+  }
+  
+  .setting-title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .setting-desc {
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 1px solid #e11d48;
+    color: #e11d48;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-outline:hover {
+    background: #e11d48;
+    color: white;
+  }
+  
+  /* Custom checkbox styling can be added here */
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #22d3ee;
+    cursor: pointer;
+  }
