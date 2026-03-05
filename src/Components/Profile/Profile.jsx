@@ -11,11 +11,21 @@ const Profile = () => {
 
       <div className="profile-content">
         <div className="profile-card">
+
+          {/* avatar row */}
           <div className="avatar-section">
-            <div className="avatar-circle">JD</div>
+            <div className="avatar-wrapper">
+              <div className="avatar-circle">JD</div>
+              <span className="avatar-online" />
+            </div>
+            <div className="avatar-info">
+              <span className="avatar-name">John Doe</span>
+              <span className="avatar-role">Administrator</span>
+            </div>
             <button className="btn-change-photo">Change Photo</button>
           </div>
-          
+
+          {/* fields */}
           <div className="info-grid">
             <div className="info-group">
               <label>Full Name</label>
@@ -29,8 +39,12 @@ const Profile = () => {
               <label>Role</label>
               <input type="text" defaultValue="Administrator" disabled />
             </div>
+            <div className="info-group">
+              <label>Member Since</label>
+              <input type="text" defaultValue="January 2024" disabled />
+            </div>
           </div>
-          
+
           <button className="btn-save">Update Profile</button>
         </div>
       </div>
